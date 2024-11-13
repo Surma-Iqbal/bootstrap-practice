@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(88, 104, 180) ;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+.sub{
+    text-align: center;
+    color:rgb(72, 4, 4);
+}
+.test{
+    flex: 1;
+    height:100%;
+}
+.navbar{
+    background: transparent !important;
+}
+.nav-link{
+    color:white !important;
+}
+.main{
+    position: relative;
+    
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: green;
+    left:5px;
+    top:5px;
+    z-index: 80;
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color:brown;
+    left:20px;
+    top:20px;
+    z-index: 90;
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: blue;
+    left:50px;
+    top:50px;
+    z-index: 60;
+}

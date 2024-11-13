@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice of bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <h1><u>1. Navbar</u></h1><br><h3 class="sub"><u>Navbar with custom css</u></h3><br><br>
+
+<!--navigation-->
+
+<nav class="navbar navbar-expand-lg position-sticky-top shadow-sm">
+  <div class="container-fluid container d-flex justify-content-between">
+    <div>
+      <img class="logo" src="./figma photos/Logo.png" alt="logo"/>
+    </div>
+    <div class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active home" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./About me.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Testimonials.html">Testimonials</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <button class="btn-nav btn-outline-primary">Contact Me</button>
+    </div>
+  </div>
+</nav>
+          
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav justify-content-end mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " href="./index.html">Home</a>
+      </li>
+      <li class="nav-item">
+           <a class="nav-link" href="./About.html">About</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="./Features.html">Features</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="./Contacts.html">Contact</a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav><br><br>
+<h1>custom css: 1.navbar {Background: transparent !important;}<br>2 .nav-link {color: white !important;}</h1>
+ <br><br><br><br>
+
+ <h1><u>1. Navbar</u></h1><br><h3 class="sub"><u>1. Navbar Bootstrap</u></h3><br><br>
+  <nav class="navbar navbar-expand-lg shadow-sm">
+      <div class="container-fluid">
+         <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#navbarTogglerDemo03">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+          <a class="nav-brand" href="#">Navbar</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+             </ul>
+           <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" area-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+  
+            </form>  
+          </div>
+      </div>
+    </nav><br><br><br><br>
+  
+  <!--Navbar-->
+
+<h1><u>2. Navbar</u></h1><br><h3 class="sub"><u>2. Background color</u></h3><br><br>
+
+<nav class="navbar navbar-expand-lg bg-danger shadow-sm" data-bs-theme="dark">
+    <div class="container-fluid">
+       <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#navbarTogglerDemo03">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+        <a class="nav-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+           </ul>
+         <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" area-label="Search">
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+
+          </form>  
+        </div>
+    </div>
+  </nav><br><br><br><br>
+
+
+
+<!--Navbar-->
+
+
+  <h1><u>3. Navbar</u></h1><br><h3 class="sub"><u>3. Navbar Bootstrap</u></h3><br><br>
+
+  <nav class="navbar navbar-expand-lg bg-primary shadow-sm" data-bs-theme="light">
+      <div class="container-fluid">
+         <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#navbarTogglerDemo03">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+          <a class="nav-brand" href="#">Navbar</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+             </ul>
+           <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" area-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+  
+            </form>  
+          </div>
+      </div>
+    </nav><br><br><br><br>
+  
+  
+    <!--Layout responsive-->
+
+<h1><u>Layout responsive</u></h1><br><h3 class="sub"><u>Mobile,tab,mid,lg,xl</u></h3><br><br>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-xl-2 col-lg-3 col-mid-4 col-sm-6 col-12 bg-primary text-black d-flex justify-content-center">A</div>
+    <div class="col-xl-2 col-lg-3 col-mid-4 col-sm-6 col-12 bg-warning text-black d-flex justify-content-center">B</div>
+    <div class="col-xl-2 col-lg-3 col-mid-4 col-sm-6 col-12 bg-secondary text-black d-flex justify-content-center">C</div>
+    <div class="col-xl-2 col-lg-3 col-mid-4 col-sm-6 col-12 bg-danger text-black d-flex justify-content-center">D</div>
+    <div class="col-xl-2 col-lg-3 col-mid-4 col-sm-6 col-12 bg-success text-black d-flex justify-content-center">E</div>
+    <div class="col-xl-2 col-lg-3 col-mid-4 col-sm-6 col-12 bg-light text-black d-flex justify-content-center">F</div>
+  
+  
+  </div>
+</div>
+
+
+<br><br><br><br>
+
+
+<!--Layout gutters-->
+
+<h1><u>Layout Gutters</h1></u><br><br>
+
+
+
+  <div class="container-fluid">
+    <div class="row g-2">
+      <div class="col-4">
+           <div class="bg-primary text-black d-flex justify-content-center">
+            A
+           </div>
+      </div>
+  
+      <div class="col-4">
+        <div class="bg-primary text-black d-flex justify-content-center">
+            B
+        </div>
+      </div>
+  
+       <div class="col-4">
+           <div class="bg-primary text-black d-flex justify-content-center">
+            C
+            </div>
+       </div>
+       <div class="col-4">
+        <div class="bg-primary text-black d-flex justify-content-center">
+            D
+        </div>
+   </div>
+
+   <div class="col-4">
+     <div class="bg-primary text-black d-flex justify-content-center">
+            E
+     </div>
+   </div>
+
+    <div class="col-4">
+        <div class="bg-primary text-black d-flex justify-content-center">
+             F
+         </div>
+    </div>
+
+      </div>
+    </div>
+    <br><br><br><br>
+    
+   <!--Boottrap Typography-->
+
+<h1><u>Boottrap Typography</u></h1><br><h3 class="sub"><u>h1 to h6 tag</u></h3><br><br>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <p class="h1">h1 tag </p>
+      <p class="h2">h2 tag </p>  
+      <p class="h3">h3 tag </p>  
+      <p class="h4">h4 tag </p>  
+      <p class="h5">h5 tag </p>  
+      <p class="h6">h6 tag </p>    
+      
+
+     </div>
+  </div>
+</div>
+
+
+
+<h1><u>Boottrap Typography</u></h1><br><h3 class="sub"><u>Display</u></h3><br><br>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <p class="display-1">display-1 </p>
+      <p class="display-2">display-2</p>
+      <p class="display-3">display-3 </p>
+      <p class="display-4">display-4 </p>
+      <p class="display-5">display-5 </p>
+      <p class="display-6">display-6 </p>
+
+     </div>
+  </div>
+</div>
+
+
+<h1><u>Bootsrap Typography</u></h1><br><h3 class="sub"><u>Blockquote</u></h3><br><br>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 text-start">
+
+      <p class="blockquote">Dream is not that which you see while sleeping it is something that does not let you sleep. </p>
+      <p class="blockquote-footer text-black">A. P. J. Abdul Kalam</p>
+      
+     </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 text-end">
+
+      <p class="blockquote">Dream is not that which you see while sleeping it is something that does not let you sleep. </p>
+      <p class="blockquote-footer text-black">A. P. J. Abdul Kalam</p>
+      
+     </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 text-center">
+
+      <p class="blockquote">Dream is not that which you see while sleeping it is something that does not let you sleep. </p>
+      <p class="blockquote-footer text-black">A. P. J. Abdul Kalam</p>
+      
+     </div>
+  </div>
+</div>
+<br><br><br><br>
+
+<!--card-->
+
+<h1><u>Card</u></h1><br><br>
+
+<div class="container fluid">
+  <div class="row">
+    <div class="col-8 p-3">
+      <div class="card w-50  rounded-3 p-3 shadow-lg">
+        <img class="card-img-top" src="https://placehold.co/600x400?text=Hello+World"/>
+        <div class="body">
+          <h3 class="card-title" style="color:blue">Card Title</h3>
+          <p class="card-text text-bg-info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <a href="https://ostad.app/" class="btn btn-info">Go somewhere</a>
+
+        </div>
+      </div>  
+
+     </div>
+  </div>
+</div>
+
+
+<br><br><br><br>
+
+
+
+<!--Card with same height-->
+
+<h1><u>Card with same height</u></h1><br><br>
+
+<div class="container section">
+  <h1 class="text-center">যেভাবে দক্ষ হয়ে উঠবে</h1>
+  <p class="text-center">ক্যাটেগরি থেকে সমস্যা সিলেক্ট করুন-সলভ করো, এর পর
+      টেষ্ট করে ফাইনাল সাবমিশন</p>
+  <div class="row">
+      <div class="col-4">
+          <div class="card test border-5 border-warning p-3">
+              <image class="w-100" src=https://captainbinary.com/images/find.webp></image>
+              <h4>প্রোগ্রামিং চ্যালেঞ্জ সিলেক্ট</h4>
+              <p>বিভিন্ন ক্যাটেগরি, লেভেল ল্যাংগুয়েজ এবং স্টেপ অনুযায়ী প্রোগ্রামিং চ্যালেঞ্জ সিলেক্ট করো</p>
+          </div>
+      </div>
+
+      <div class="col-4">
+          <div class="card test border-5 border-warning p-3">
+              <image class="w-100" src=https://captainbinary.com/images/read.webp></image>
+              <h4>চ্যালেঞ্জ ডিটেলস পড়ো</h4>
+              <p>প্রত্যেকটি চ্যালেঞ্জ সল্ভ করার ইন্সট্রাকশন বোঝার চেষ্টা করো , চ্যালেঞ্জ সল্ভ করার জন্য রিলেটেড রেফারেন্স দেখো</p>
+          </div>
+      </div>
+
+      <div class="col-4">
+          <div class="card test border-5 border-warning p-3">
+             <image class="w-100" src="https://captainbinary.com/images/solve.webp"></image>
+             <h4>চ্যালেঞ্জ সলভ করো</h4>
+          <p>প্রোগ্রামিং এর জন্য একটি স্টান্ডার্ড কোড-এডিটর দেওয়া আছে, নির্দেশনা অনুযায়ী কোড লেখো, ফাইনাল সাবমিশনের পুর্বে রান করে দেখো টেস্ট কেজ পাশ করে কি না !</p>
+          </div>
+      </div>
+      
+  </div>
+</div>
+
+<br><br><br><br>
+
+<!--Image-->
+
+<h1><u>Image</u></h1><br><br>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-4">
+      <img src="./aesthetic 2.jpeg" class="image-fluid" alt="aesthetic 1">
+    </div>
+
+    <div class="col-4">
+      <img src="./aesthetic 3.jpeg" class="image-thumnail" alt="aesthetic 2">
+    </div>
+
+    <div class="col-4">
+      <img src="./aesthetic 5.jpeg" class="img-fluid rounded" alt="aesthetic 3">
+     </div>
+
+  </div>
+</div>
+
+
+<br><br><br><br>
+
+<!--Form-->
+<h1><u>Form</u></h1><br><h3 class="sub"><u>Form bootstrap</u></h3><br><br>
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6 border-5 border-danger">   
+      <div class="card test border-5 border-warning p-3 bg-body-secondary"> 
+
+          <label class="form-label">First Name</label>
+          <input type="text" class="form-control" placeholder="Name"><br>
+
+          <label class="form-label">Last Name</label>
+          <input type="text" class="form-control" placeholder="Name"><br>
+
+          <label class="form-label">Date of Birth</label>
+          <input type="date" class="form-control" placeholder="mm/dd/yyyy"><br>       
+
+          <label class="form-label">Email address</label>
+          <input type="email" class="form-control" placeholder="name@example.com"><br>
+
+          <label class="form-label">Password</label>
+          <input type="Password" class="form-control" placeholder="Password"><br>
+
+          <label class="form-label">Mobile Number</label>
+          <input type="text" class="form-control" placeholder="Number"><br>
+
+          <label class="form-label">Example Textarea</label>
+          <textarea class="form-control" rows="4"></textarea><br>
+
+          <label for="formFile" class="form-label">Default file input example</label>
+          <input class="form-control" type="file" id="formFile"><br>
+
+          <input class="form-control form-control-lg"><br>
+          <input class="form-control form-control-sm"><br>
+
+          <input class="form-control" disabled><br>
+
+          <input class="form-control" readonly><br>
+
+        </div>
+        </div>
+      </div>
+    </div>
+<br><br><br><br>
+
+<!--Form-->
+
+
+<h1><u>Form</u></h1><br><h3 class="sub"><u>Form selection</u></h3><br><br>
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+        <div>
+          <label class="form-label">City</label>
+           <select class="form-select">
+             <option>Dhaka</option>
+             <option>Borishal</option>
+             <option>Rajshahi</option>
+             <option>Chottogram</option>
+           </select><br>
+
+           <label class="form-label">Choose a topic</label>
+              <select class="form-select" aria-label="default select example">
+                    <option selected>Select one...</option>
+                    <option value="1">Science</option>
+                    <option value="2">Politics</option>
+                    <option value="3">History</option>
+                    </select><br>
+         </div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+     
+      <select class="form-select">
+        <option>A</option>
+       <option>B</option>
+       <option>C</option>
+       <option>D</option>
+      </select>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+       <select class="form-select form-select-lg">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+        <option>D</option>
+      </select>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+        <select class="form-select form-select-sm">
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+          <option>D</option>
+        </select>
+     </div>
+  </div>
+</div><br><br>
+
+
+<!--If I want to select any one or two or more-->
+<!--Form-->
+
+
+<h1><u>Form</u></h1><br><h3 class="sub"><u>Form specific Selection/not done</u></h3><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+<select class="form-select">
+  <option value="6" selected>A</option>
+  <option>B</option>
+  <option value="8" selected>C</option>
+  <option>D</option>
+</select>
+
+    </div>
+ </div>
+</div><br><br><br><br>
+
+<!--form-->
+
+<h1><u>Form Range</u></h1><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+      <div class="card rounded-3 p-5 shadow-lg">
+         <div>
+           <label class="form-label">range (0 to 100)</label>
+           <input  type="range" class="form-range" placeholder=""  min="0" max="100"/>
+          </div><br>
+          <div>
+            <label class="form-label">range (0 to 100)</label>
+            <input  type="range" class="form-range" placeholder=""  min="0" max="100" step="20"/>
+           </div><br>
+           <div>
+            <label class="form-label">range (0 to 100)</label>
+            <input  type="range" class="form-range" disabled/>
+           </div><br>   
+          
+       
+        </div>
+      </div>
+   </div>
+ </div>
+ <br><br><br><br>
+
+
+<!--Form-->
+
+ <h1><u>Form-Checkbox (multiple choice)</u></h1><br><br>
+
+<div class="container fluid">
+   <div class="row justify-content-center">
+     <div class="col-6">
+      <div class="card rounded-3 p-5 shadow-lg">  
+       <form>
+             <div class="form-check">       
+                 <label class="form-check-label">fish</label>
+                 <input class="form-check-input"  type="checkbox">
+              </div><br>
+
+              <div class="form-check">       
+                <label class="form-check-label">meat</label>
+                <input class="form-check-input"  type="checkbox">
+              </div><br>
+
+              <div class="form-check">       
+              <label class="form-check-label">drink</label>
+              <input class="form-check-input"  type="checkbox">
+              </div><br>
+
+              <div class="form-check">       
+              <label class="form-check-label">rice</label>
+              <input class="form-check-input"  type="checkbox">
+              </div><br>
+            </form>
+          </div>
+       </div>
+     </div>
+    </div>div> 
+    <br><br><br><br>
+
+
+    <!--form-->
+
+              <h1><u>Form-Checkbox (single choice/radio)</u></h1><br><br>
+
+     <div class="container fluid">
+       <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="card rounded-3 p-5 shadow-lg">  
+             <form>
+              <div class="form-check">
+                <label class="form-label">gender</label><br>
+                <input name="gender" type="radio">female
+                <input name="gender" type="radio">male
+                <input name="gender" type="radio">other
+            </div><br>
+
+        </form>
+      </div>
+   </div>
+ </div>
+</div>div> 
+<br><br><br><br>
+
+
+<!--form-->
+
+
+<h1><u>Form-button</u></h1><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+      <div class="card rounded-3 p-5 shadow-lg">
+                      
+          <button class="btn mt-3 btn-primary">Submit</button>
+          <button class="btn mt-3 btn-warning">Submit</button>
+          <button class="btn mt-3 btn-danger">Submit</button>
+          <button class="btn mt-3 btn-secondary">Submit</button>
+          <button class="btn mt-3 btn-dark">Submit</button>
+          <button class="btn mt-3 btn-success">Submit</button>
+
+
+        </div>
+     </div>
+  </div>
+</div>
+
+
+<br><br><br><br>
+
+<!--Dropdown in the button-->
+
+
+<h1><u>Dropdown in the button</u></h1><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+      <div class="card rounded-3 p-5 shadow-lg">
+         
+           <div class="dropdown">
+            <button class=" btn btn-success dropdown-toggle" data-bs-toggle="dropdown">Dropdown button
+
+            </button>
+              <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="#">Action</a></li>
+                 <li><a class="dropdown-item" href="#">Another action</a></li>
+                 <li><a class="dropdown-item" href="#">Somethiing else here</a></li>
+
+              </ul> 
+           </div><br>
+             
+        </div>
+     </div>
+  </div>
+</div><br><br><br><br>
+
+
+<!--List-->
+
+
+<h1><u>List</u></h1><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">    
+      <div class="card rounded-3 p-5 shadow-lg border-5 border-danger">
+         
+          
+              <ol class="list-group list-group-flush">
+                 <li class="list-group-item">An item <ol type="i">
+                                             <li>one</li>
+                                             <li>two</li>
+                                             </ol></li>
+                 <li class="list-group-item">A second item</li>
+                 <li class="list-group-item">A third item</li>
+                 <li class="list-group-item">A fourth item</li>
+                 <li class="list-group-item">And a fifth one</li>
+                 
+
+              </ol> 
+           </div><br>
+             
+        </div>
+     </div>
+  </div>
+</div><br><br><br><br>
+
+<!--table, css be used on table level,row level and cell level-->
+
+<h1><u>Table</u></h1><br><br>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-8">  
+       <div class="card p-4">
+         <table class="table table-hover table table-dark">
+           <thead>
+             <tr class=" table-danger">
+               <th>Name</th>
+               <th>Age</th>
+               <th>City</th>
+             </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="table-primary">aaa</td>
+                <td>bbb</td>
+                <td>ccc</td>
+              </tr>
+              <tr>
+                <td>hhh</td>
+                <td>jjj</td>
+                <td class="table-info">kkk</td>
+              </tr> 
+              <tr>
+                <td>lll</td>
+                <td>rrr</td>
+                <td>sss</td>
+              </tr>
+              
+            </tbody>
+         </table>
+
+       </div>  
+     </div>
+  </div>
+</div>
+
+<br><br><br><br>
+
+
+<!--Alert-->
+
+<h1><u>Alert</u></h1><br><br>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-4">
+      <div class="alert alert-danger">
+        alert practice
+      </div>  
+        
+
+      <div class="alert alert-primary">
+        alert practice
+      </div> 
+
+      <div class="alert alert-success">
+        alert practice
+      </div> 
+
+     </div>
+  </div>
+</div>
+
+
+<br><br><br><br>
+
+
+<!--Modal-->
+
+<h1><u>Modal</u></h1><br><br>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title or brand name</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This is modal body.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">exit</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Accordion flush-->
+
+<h1><u>Accordion section</u></h1><br><br>
+
+<div class="container">
+  <div class="row">
+    <div class=" col-4">
+      
+      
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             <h2> Accordion Item # 1</h2>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+    
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               <h2> Accordion Item #2</h2>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+  
+    </div>
+  </div>
+</div>
+
+
+  <br><br><br><br>
+
+   <!--Accordion always open-->
+   
+   <h1><u>Accordion section-always open</u></h1><br><br>
+
+   <div class="container">
+    <div class="row">
+      <div class=" col-4">
+        
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          
+  
+      </div>
+    </div>
+  </div>
+  
+  
+
+<!--Tabs-->
+   
+<h1><u>Tabs section</u></h1>
+<br><br>
+
+<div class="container">
+  <div class="row">
+    <div class=" col-4">
+      
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<!--Tabs-pills-->
+<div>
+  <h1><u>Tabs-pills</u></h1><br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class=" col-4">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+  <br><br><br><br>
+
+<!--placeholder-->
+<h1><u>placeholder section</u></h1><br><br>
+<div class="container">
+  <div class="row">
+    <div class=" col-4">
+      <div class="card">
+        <img src="./aesthetic 5.jpeg" class="card-img-top" alt="butterfly">
+      
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<br><br><br><br>
+
+<!--Plagination-->
+<div>
+  <h1><u>plagination section</u></h1><br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class=" col-4">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="http //dlrs.teletalk. com.bd">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="http //app.dutchbanglabank.com/online job">1</a></li>
+          <li class="page-item"><a class="page-link" href="https //twitter.com">2</a></li>
+          <li class="page-item"><a class="page-link" href="https://ostad.app/">3</a></li>
+          <li class="page-item"><a class="page-link" href="www tiktok">Next</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+
+  <br><br><br><br>
+
+<!--breadcrumb-->
+<div>
+  <h1><u>breadcrumb section</u></h1><br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class=" col-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+
+  <br><br><br><br>
+
+  <!--spinner-->
+<div>
+  <h1><u>spinner section</u></h1><br>
+<br>
+
+<div class="container">
+  <div class="row">
+    
+    <div class=" col-4">
+
+      <div class="spinner-border text-warning">
+      </div>
+
+    </div>
+
+    <div class=" col-4">
+
+      <div class="spinner-grow text-danger">        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <br><br><br><br>
+
+
+  <!--carousel-->
+<div>
+  <h1><u>carousel section</u></h1><br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class=" col-6">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./aesthetic 3.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./aesthetic 1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./aesthetic 2.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <br><br><br><br>
+
+  <!--progress bar-->
+<div>
+  <h1><u>progress bar section</u></h1><br>
+<br>
+
+<div class="container">
+  <div class="row">
+    
+    <div class=" col-6">
+
+      <div class="progress">
+        <div class="progress-bar" style="width:38.9%"> 38.9% progress
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class=" col-6">
+
+      <div class="progress">
+        <div class="progress-bar w-75">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<br><br><br><br>
+
+
+<!--offcanvas-->
+<div>
+  <h1><u>offcanvas</u></h1><br>
+<br>
+
+<div class="container">
+  <div class="row ">    
+    <div class="col-6">
+
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  Link with href
+</a>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+  Button with data-bs-target
+</button>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+<br><br><br><br>
+
+<!--Z-index-->
+<div>
+  <h1><u>Z-index not done</u></h1><br>
+<br>
+
+<div class="container">
+  <div class="row ">    
+    <div class="col-6
+    ">
+       <div class="main">
+          <div class="child1">
+
+          </div>
+          <div class="child2">
+
+          </div>
+          <div class="child3">
+
+          </div>
+       </div>
+       
+    </div>
+  </div>
+</div>
+
+
+            <br><br><br><br>
+    <script src="./bootstrap.bundle.js"></script>
+</body>
+</html>
